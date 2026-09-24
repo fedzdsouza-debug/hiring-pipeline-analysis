@@ -1,9 +1,0 @@
-job_id,title,department,experience_level,interview_mode,created_at
-1,Data Analyst,Analytics,Entry,Standard,2026-01-02
-2,Senior Data Analyst,Analytics,Senior,Individualized,2026-01-16
-3,Backend Engineer,Engineering,Mid,Standard,2026-01-09
-4,Product Manager,Product,Mid,Standard,2026-02-13
-5,Recruiter,People,Entry,Standard,2026-02-07
-6,Customer Success Associate,Customer Success,Entry,Individualized,2026-01-03
-7,QA Engineer,Engineering,Mid,Standard,2026-01-06
-8,Operations Analyst,Operations,Entry,Standard,2026-01-15
