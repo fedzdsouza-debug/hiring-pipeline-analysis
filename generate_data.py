@@ -1,23 +1,14 @@
 """
 Generate synthetic hiring-pipeline data matching schema.sql.
 
-No external dependencies beyond the Python standard library, so it
-runs anywhere without pip installs. Produces one CSV per table in
-./data, in an order that respects foreign-key dependencies:
-
     jobs -> candidates -> interviews -> screening_scores
          -> interview_scores -> recruiter_decisions
-
-Each CSV's first column matches the table's SERIAL primary key
-(starting at 1), so you can import them straight into Supabase via
-Table Editor > Insert > Import data from CSV, in this same order.
-"""
 
 import csv
 import random
 from datetime import date, datetime, timedelta
 
-random.seed(42)  # reproducible output
+random.seed(42)  
 
 OUT_DIR = "data"
 import os
