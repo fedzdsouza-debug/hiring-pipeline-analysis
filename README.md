@@ -1,17 +1,9 @@
 # Hiring Pipeline Analysis (PostgreSQL + Python)
 
 A synthetic hiring-funnel dataset and analysis pipeline, modeled on the
-job → candidate → interview → decision flow used by AI-hiring platforms
-like [Verixans (VerisNova)](https://www.verixans.com/). Built to demonstrate
+job → candidate → interview → decision flow built to demonstrate
 relational schema design, SQL analysis (including window functions), and
 Python-based synthetic data generation.
-
-## Why this project
-
-I'm transitioning into a Data Analyst role and wanted a portfolio project
-that goes beyond a single flat CSV — one with a proper relational schema,
-referential integrity, and analysis questions that mirror what a real
-recruiting/hiring-tech team would ask of their data.
 
 ## Tech stack
 
@@ -35,24 +27,6 @@ Six tables, in dependency order:
 | `recruiter_decisions` | Final Advance / Reject / Hire decision |
 
 Full DDL is in [`schema.sql`](./schema.sql).
-
-## Setup
-
-1. Create a free project on [Supabase](https://supabase.com).
-2. Open the **SQL Editor** and run [`schema.sql`](./schema.sql), one
-   numbered block at a time.
-3. Generate synthetic data:
-   ```bash
-   python3 generate_data.py
-   ```
-   This writes six CSVs to `data/`, sized to respect foreign-key
-   relationships (e.g. only candidates who "pass screening" get an
-   interview row).
-4. In Supabase's **Table Editor**, import each CSV via
-   **Insert → Import data from CSV**, in numeric order (`1_jobs.csv`
-   through `6_recruiter_decisions.csv`).
-5. Run the analysis queries in [`analysis_queries.sql`](./analysis_queries.sql)
-   in the SQL Editor.
 
 ## Key findings
 
@@ -85,8 +59,3 @@ produce different numbers)*
 - `data/` — generated CSVs
 - `analysis_queries.sql` — 13 queries across funnel, scores, time-to-stage,
   source effectiveness, and window functions
-
-## Next steps
-
-- LLM-based scoring of sample interview answers (OpenAI/Anthropic API)
-- Candidate–job matching via embeddings (`pgvector`)
