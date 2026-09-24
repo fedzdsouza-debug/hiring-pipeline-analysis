@@ -1,12 +1,3 @@
--- ============================================================
--- Hiring Pipeline Schema (synthetic data, modeled loosely on
--- VerisNova's job -> candidate -> interview -> decision flow)
---
--- Run ONE numbered block at a time in the Supabase SQL Editor.
--- Click Run after each block, confirm it succeeds (or check the
--- Table Editor), then move to the next block.
--- ============================================================
-
 -- ---------- STEP 1: jobs ----------
 -- One row per open role.
 CREATE TABLE jobs (
@@ -52,8 +43,7 @@ CREATE TABLE screening_scores (
 
 -- ---------- STEP 5: interview_scores ----------
 -- Per-competency scores within a completed interview (one interview can
--- have several rows, one per competency evaluated). The UNIQUE constraint
--- stops the same competency being scored twice for the same interview.
+-- have several rows, one per competency evaluated). 
 CREATE TABLE interview_scores (
     score_id          SERIAL PRIMARY KEY,
     interview_id      INTEGER NOT NULL REFERENCES interviews(interview_id),
