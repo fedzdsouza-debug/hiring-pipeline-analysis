@@ -1,0 +1,486 @@
+score_id,interview_id,competency,score
+1,2,Communication,77.84
+2,2,Technical Depth,71.85
+3,2,Problem Solving,76.39
+4,2,Role Fit,45.83
+5,2,Ownership,65.86
+6,3,Communication,79.47
+7,3,Technical Depth,52.3
+8,3,Problem Solving,83.16
+9,3,Role Fit,66.77
+10,3,Ownership,70.55
+11,5,Communication,64.05
+12,5,Technical Depth,62.14
+13,5,Problem Solving,72.43
+14,5,Role Fit,67.14
+15,5,Ownership,64.65
+16,7,Communication,62.05
+17,7,Technical Depth,73.92
+18,7,Problem Solving,57.75
+19,7,Role Fit,59.55
+20,7,Ownership,77.59
+21,8,Communication,80.51
+22,8,Technical Depth,67.05
+23,8,Problem Solving,77.12
+24,8,Role Fit,86.99
+25,8,Ownership,55.59
+26,10,Communication,85.87
+27,10,Technical Depth,69.48
+28,10,Problem Solving,74.96
+29,10,Role Fit,58.67
+30,10,Ownership,75.82
+31,11,Communication,77.57
+32,11,Technical Depth,69.77
+33,11,Problem Solving,68.48
+34,11,Role Fit,75.37
+35,11,Ownership,65.28
+36,13,Communication,78.87
+37,13,Technical Depth,52.01
+38,13,Problem Solving,76.36
+39,13,Role Fit,76.5
+40,13,Ownership,81.26
+41,14,Communication,51.73
+42,14,Technical Depth,76.3
+43,14,Problem Solving,84.09
+44,14,Role Fit,61.26
+45,14,Ownership,54.27
+46,15,Communication,76.81
+47,15,Technical Depth,71.06
+48,15,Problem Solving,66.01
+49,15,Role Fit,64.18
+50,15,Ownership,59.22
+51,18,Communication,50.09
+52,18,Technical Depth,68.36
+53,18,Problem Solving,71.62
+54,18,Role Fit,72.55
+55,18,Ownership,80.5
+56,19,Communication,55.29
+57,19,Technical Depth,64.23
+58,19,Problem Solving,72.36
+59,19,Role Fit,71.52
+60,19,Ownership,87.21
+61,20,Communication,51.01
+62,20,Technical Depth,92.34
+63,20,Problem Solving,76.78
+64,20,Role Fit,71.4
+65,20,Ownership,59.01
+66,21,Communication,73.58
+67,21,Technical Depth,65.49
+68,21,Problem Solving,71.66
+69,21,Role Fit,77.44
+70,21,Ownership,78.73
+71,22,Communication,66.18
+72,22,Technical Depth,78.92
+73,22,Problem Solving,72.67
+74,22,Role Fit,69.32
+75,22,Ownership,75.67
+76,25,Communication,83.34
+77,25,Technical Depth,75.14
+78,25,Problem Solving,66.89
+79,25,Role Fit,72.93
+80,25,Ownership,51.5
+81,26,Communication,73.64
+82,26,Technical Depth,86.1
+83,26,Problem Solving,54.98
+84,26,Role Fit,29.1
+85,26,Ownership,72.0
+86,28,Communication,76.17
+87,28,Technical Depth,76.6
+88,28,Problem Solving,73.31
+89,28,Role Fit,60.6
+90,28,Ownership,29.86
+91,29,Communication,81.66
+92,29,Technical Depth,40.82
+93,29,Problem Solving,87.75
+94,29,Role Fit,68.5
+95,29,Ownership,66.19
+96,30,Communication,55.32
+97,30,Technical Depth,67.46
+98,30,Problem Solving,79.81
+99,30,Role Fit,80.36
+100,30,Ownership,85.77
+101,31,Communication,67.72
+102,31,Technical Depth,62.94
+103,31,Problem Solving,64.49
+104,31,Role Fit,76.54
+105,31,Ownership,91.17
+106,32,Communication,68.02
+107,32,Technical Depth,71.17
+108,32,Problem Solving,83.96
+109,32,Role Fit,59.96
+110,32,Ownership,81.99
+111,33,Communication,36.46
+112,33,Technical Depth,76.97
+113,33,Problem Solving,87.09
+114,33,Role Fit,88.14
+115,33,Ownership,81.08
+116,34,Communication,74.85
+117,34,Technical Depth,67.17
+118,34,Problem Solving,56.6
+119,34,Role Fit,59.57
+120,34,Ownership,76.55
+121,35,Communication,64.47
+122,35,Technical Depth,67.18
+123,35,Problem Solving,68.07
+124,35,Role Fit,74.3
+125,35,Ownership,55.85
+126,36,Communication,73.09
+127,36,Technical Depth,85.61
+128,36,Problem Solving,86.28
+129,36,Role Fit,54.85
+130,36,Ownership,64.94
+131,38,Communication,70.7
+132,38,Technical Depth,63.73
+133,38,Problem Solving,45.85
+134,38,Role Fit,69.57
+135,38,Ownership,77.1
+136,39,Communication,57.36
+137,39,Technical Depth,67.62
+138,39,Problem Solving,76.73
+139,39,Role Fit,77.87
+140,39,Ownership,66.58
+141,41,Communication,83.73
+142,41,Technical Depth,65.3
+143,41,Problem Solving,68.97
+144,41,Role Fit,74.75
+145,41,Ownership,79.94
+146,42,Communication,98.34
+147,42,Technical Depth,67.43
+148,42,Problem Solving,86.61
+149,42,Role Fit,66.0
+150,42,Ownership,66.5
+151,43,Communication,59.84
+152,43,Technical Depth,57.56
+153,43,Problem Solving,63.57
+154,43,Role Fit,66.43
+155,43,Ownership,51.65
+156,44,Communication,51.77
+157,44,Technical Depth,55.75
+158,44,Problem Solving,93.21
+159,44,Role Fit,93.16
+160,44,Ownership,76.13
+161,45,Communication,95.51
+162,45,Technical Depth,84.28
+163,45,Problem Solving,71.24
+164,45,Role Fit,60.67
+165,45,Ownership,73.81
+166,46,Communication,85.16
+167,46,Technical Depth,67.81
+168,46,Problem Solving,67.99
+169,46,Role Fit,81.55
+170,46,Ownership,60.32
+171,47,Communication,63.61
+172,47,Technical Depth,62.08
+173,47,Problem Solving,70.7
+174,47,Role Fit,91.77
+175,47,Ownership,59.04
+176,48,Communication,77.34
+177,48,Technical Depth,67.35
+178,48,Problem Solving,63.48
+179,48,Role Fit,58.43
+180,48,Ownership,76.78
+181,49,Communication,66.41
+182,49,Technical Depth,75.64
+183,49,Problem Solving,76.78
+184,49,Role Fit,61.95
+185,49,Ownership,81.02
+186,50,Communication,69.17
+187,50,Technical Depth,53.68
+188,50,Problem Solving,82.06
+189,50,Role Fit,64.34
+190,50,Ownership,69.47
+191,52,Communication,70.32
+192,52,Technical Depth,76.13
+193,52,Problem Solving,63.72
+194,52,Role Fit,72.06
+195,52,Ownership,97.49
+196,53,Communication,79.05
+197,53,Technical Depth,78.21
+198,53,Problem Solving,60.59
+199,53,Role Fit,95.17
+200,53,Ownership,63.99
+201,54,Communication,80.86
+202,54,Technical Depth,44.24
+203,54,Problem Solving,68.6
+204,54,Role Fit,62.34
+205,54,Ownership,91.49
+206,55,Communication,100
+207,55,Technical Depth,45.87
+208,55,Problem Solving,75.11
+209,55,Role Fit,64.79
+210,55,Ownership,70.09
+211,56,Communication,59.61
+212,56,Technical Depth,78.25
+213,56,Problem Solving,70.92
+214,56,Role Fit,85.85
+215,56,Ownership,79.3
+216,57,Communication,72.94
+217,57,Technical Depth,51.11
+218,57,Problem Solving,56.72
+219,57,Role Fit,65.39
+220,57,Ownership,61.3
+221,58,Communication,75.72
+222,58,Technical Depth,70.29
+223,58,Problem Solving,76.27
+224,58,Role Fit,77.01
+225,58,Ownership,61.89
+226,59,Communication,79.11
+227,59,Technical Depth,73.73
+228,59,Problem Solving,71.09
+229,59,Role Fit,59.46
+230,59,Ownership,65.69
+231,60,Communication,67.15
+232,60,Technical Depth,81.51
+233,60,Problem Solving,55.57
+234,60,Role Fit,74.65
+235,60,Ownership,77.64
+236,61,Communication,55.08
+237,61,Technical Depth,65.17
+238,61,Problem Solving,65.95
+239,61,Role Fit,79.52
+240,61,Ownership,76.62
+241,63,Communication,85.28
+242,63,Technical Depth,68.73
+243,63,Problem Solving,65.55
+244,63,Role Fit,75.01
+245,63,Ownership,60.28
+246,64,Communication,62.7
+247,64,Technical Depth,73.27
+248,64,Problem Solving,70.85
+249,64,Role Fit,65.09
+250,64,Ownership,48.9
+251,66,Communication,63.24
+252,66,Technical Depth,69.17
+253,66,Problem Solving,75.16
+254,66,Role Fit,65.9
+255,66,Ownership,79.55
+256,67,Communication,65.61
+257,67,Technical Depth,57.0
+258,67,Problem Solving,80.35
+259,67,Role Fit,78.85
+260,67,Ownership,56.54
+261,68,Communication,55.69
+262,68,Technical Depth,69.34
+263,68,Problem Solving,54.59
+264,68,Role Fit,70.98
+265,68,Ownership,67.83
+266,69,Communication,70.35
+267,69,Technical Depth,67.18
+268,69,Problem Solving,75.05
+269,69,Role Fit,61.09
+270,69,Ownership,75.15
+271,70,Communication,89.58
+272,70,Technical Depth,55.54
+273,70,Problem Solving,58.87
+274,70,Role Fit,58.26
+275,70,Ownership,68.29
+276,71,Communication,87.44
+277,71,Technical Depth,85.53
+278,71,Problem Solving,67.24
+279,71,Role Fit,70.55
+280,71,Ownership,73.86
+281,72,Communication,55.48
+282,72,Technical Depth,71.79
+283,72,Problem Solving,66.27
+284,72,Role Fit,49.62
+285,72,Ownership,53.74
+286,73,Communication,85.23
+287,73,Technical Depth,70.77
+288,73,Problem Solving,85.63
+289,73,Role Fit,67.61
+290,73,Ownership,62.57
+291,74,Communication,58.35
+292,74,Technical Depth,74.53
+293,74,Problem Solving,63.08
+294,74,Role Fit,74.21
+295,74,Ownership,53.5
+296,75,Communication,69.81
+297,75,Technical Depth,47.06
+298,75,Problem Solving,74.14
+299,75,Role Fit,67.34
+300,75,Ownership,51.42
+301,76,Communication,54.71
+302,76,Technical Depth,68.2
+303,76,Problem Solving,83.69
+304,76,Role Fit,69.84
+305,76,Ownership,48.5
+306,77,Communication,91.02
+307,77,Technical Depth,55.66
+308,77,Problem Solving,73.71
+309,77,Role Fit,52.74
+310,77,Ownership,64.84
+311,78,Communication,82.22
+312,78,Technical Depth,56.6
+313,78,Problem Solving,73.11
+314,78,Role Fit,61.13
+315,78,Ownership,40.01
+316,79,Communication,72.99
+317,79,Technical Depth,68.17
+318,79,Problem Solving,79.94
+319,79,Role Fit,100
+320,79,Ownership,57.75
+321,81,Communication,72.49
+322,81,Technical Depth,51.42
+323,81,Problem Solving,64.9
+324,81,Role Fit,57.06
+325,81,Ownership,54.74
+326,82,Communication,71.95
+327,82,Technical Depth,87.59
+328,82,Problem Solving,62.32
+329,82,Role Fit,66.32
+330,82,Ownership,85.23
+331,83,Communication,45.42
+332,83,Technical Depth,63.16
+333,83,Problem Solving,61.3
+334,83,Role Fit,76.79
+335,83,Ownership,70.98
+336,84,Communication,63.32
+337,84,Technical Depth,98.88
+338,84,Problem Solving,77.82
+339,84,Role Fit,93.95
+340,84,Ownership,82.98
+341,85,Communication,58.91
+342,85,Technical Depth,53.47
+343,85,Problem Solving,75.05
+344,85,Role Fit,91.94
+345,85,Ownership,67.96
+346,86,Communication,85.28
+347,86,Technical Depth,69.22
+348,86,Problem Solving,75.72
+349,86,Role Fit,69.49
+350,86,Ownership,61.14
+351,87,Communication,94.73
+352,87,Technical Depth,78.17
+353,87,Problem Solving,71.33
+354,87,Role Fit,78.64
+355,87,Ownership,78.69
+356,89,Communication,76.33
+357,89,Technical Depth,52.13
+358,89,Problem Solving,73.13
+359,89,Role Fit,90.14
+360,89,Ownership,93.58
+361,90,Communication,76.97
+362,90,Technical Depth,69.03
+363,90,Problem Solving,55.82
+364,90,Role Fit,49.72
+365,90,Ownership,52.8
+366,91,Communication,72.65
+367,91,Technical Depth,70.37
+368,91,Problem Solving,60.13
+369,91,Role Fit,69.08
+370,91,Ownership,74.09
+371,92,Communication,72.05
+372,92,Technical Depth,52.68
+373,92,Problem Solving,72.19
+374,92,Role Fit,89.54
+375,92,Ownership,71.95
+376,95,Communication,67.33
+377,95,Technical Depth,80.99
+378,95,Problem Solving,64.09
+379,95,Role Fit,84.63
+380,95,Ownership,46.16
+381,96,Communication,92.23
+382,96,Technical Depth,75.17
+383,96,Problem Solving,71.82
+384,96,Role Fit,62.51
+385,96,Ownership,69.85
+386,97,Communication,45.65
+387,97,Technical Depth,69.19
+388,97,Problem Solving,73.21
+389,97,Role Fit,65.12
+390,97,Ownership,85.56
+391,98,Communication,79.76
+392,98,Technical Depth,65.29
+393,98,Problem Solving,53.52
+394,98,Role Fit,74.86
+395,98,Ownership,45.12
+396,99,Communication,66.17
+397,99,Technical Depth,79.45
+398,99,Problem Solving,80.62
+399,99,Role Fit,66.88
+400,99,Ownership,91.6
+401,101,Communication,60.56
+402,101,Technical Depth,87.0
+403,101,Problem Solving,58.6
+404,101,Role Fit,54.66
+405,101,Ownership,80.84
+406,102,Communication,70.96
+407,102,Technical Depth,64.98
+408,102,Problem Solving,87.26
+409,102,Role Fit,75.76
+410,102,Ownership,85.45
+411,105,Communication,62.12
+412,105,Technical Depth,60.63
+413,105,Problem Solving,60.39
+414,105,Role Fit,74.69
+415,105,Ownership,65.64
+416,106,Communication,73.14
+417,106,Technical Depth,83.58
+418,106,Problem Solving,68.43
+419,106,Role Fit,71.29
+420,106,Ownership,69.45
+421,107,Communication,60.28
+422,107,Technical Depth,78.72
+423,107,Problem Solving,68.86
+424,107,Role Fit,80.67
+425,107,Ownership,56.4
+426,108,Communication,62.25
+427,108,Technical Depth,69.18
+428,108,Problem Solving,81.3
+429,108,Role Fit,71.53
+430,108,Ownership,87.75
+431,110,Communication,63.09
+432,110,Technical Depth,71.53
+433,110,Problem Solving,59.37
+434,110,Role Fit,44.98
+435,110,Ownership,85.67
+436,111,Communication,56.67
+437,111,Technical Depth,63.73
+438,111,Problem Solving,54.07
+439,111,Role Fit,80.7
+440,111,Ownership,65.81
+441,112,Communication,75.49
+442,112,Technical Depth,99.64
+443,112,Problem Solving,56.9
+444,112,Role Fit,71.81
+445,112,Ownership,81.58
+446,113,Communication,69.19
+447,113,Technical Depth,62.12
+448,113,Problem Solving,44.69
+449,113,Role Fit,71.0
+450,113,Ownership,48.43
+451,114,Communication,79.3
+452,114,Technical Depth,51.92
+453,114,Problem Solving,63.15
+454,114,Role Fit,55.37
+455,114,Ownership,73.41
+456,115,Communication,55.75
+457,115,Technical Depth,58.81
+458,115,Problem Solving,68.0
+459,115,Role Fit,75.08
+460,115,Ownership,67.09
+461,116,Communication,82.31
+462,116,Technical Depth,47.2
+463,116,Problem Solving,74.41
+464,116,Role Fit,84.22
+465,116,Ownership,82.05
+466,117,Communication,90.24
+467,117,Technical Depth,53.07
+468,117,Problem Solving,76.48
+469,117,Role Fit,67.13
+470,117,Ownership,56.4
+471,118,Communication,80.49
+472,118,Technical Depth,62.27
+473,118,Problem Solving,76.0
+474,118,Role Fit,72.19
+475,118,Ownership,56.67
+476,119,Communication,77.83
+477,119,Technical Depth,53.27
+478,119,Problem Solving,63.52
+479,119,Role Fit,69.1
+480,119,Ownership,72.35
+481,120,Communication,69.97
+482,120,Technical Depth,70.93
+483,120,Problem Solving,70.94
+484,120,Role Fit,74.58
+485,120,Ownership,53.47
