@@ -1,9 +1,7 @@
 -- ============================================================
 -- Analysis Queries: Hiring Pipeline (synthetic data)
--- Run these one at a time in the Supabase SQL Editor.
 -- Grouped into: Funnel, Scores, Time-to-stage, Source, Window functions.
 -- ============================================================
-
 
 -- ------------------------------------------------------------
 -- SECTION 1: FUNNEL
@@ -64,7 +62,6 @@ ORDER BY avg_score ASC;
 
 
 -- Q6. Average overall interview score by final decision
--- (sanity check: do Hires actually score higher than Rejects?).
 SELECT rd.decision, ROUND(AVG(isc.score), 1) AS avg_competency_score
 FROM recruiter_decisions rd
 JOIN interviews i ON i.candidate_id = rd.candidate_id AND i.job_id = rd.job_id
@@ -90,7 +87,6 @@ JOIN interviews i ON i.candidate_id = ss.candidate_id;
 
 
 -- Q9. Average days from interview completion to final decision
--- ("time to decision" — a metric a real hiring team cares about).
 SELECT ROUND(AVG(rd.decided_at - i.completed_at::DATE), 1) AS avg_days_to_decision
 FROM interviews i
 JOIN recruiter_decisions rd
@@ -135,7 +131,6 @@ ORDER BY j.title, rank_in_job;
 
 
 -- Q12. Running total of hires over time
--- (cumulative SUM — good for a "hires over time" trend line).
 SELECT
     decided_at,
     COUNT(*) FILTER (WHERE decision = 'Hire') AS hires_that_day,
@@ -146,7 +141,7 @@ ORDER BY decided_at;
 
 
 -- Q13. Compare each candidate's screening score to the previous candidate
--- who applied for the same job (LAG — spot sudden score drops in the queue).
+-- who applied for the same job.
 SELECT
     j.title,
     c.full_name,
