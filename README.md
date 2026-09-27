@@ -1,17 +1,9 @@
 # Hiring Pipeline Analysis (PostgreSQL + Python)
 
 A synthetic hiring-funnel dataset and analysis pipeline, modeled on the
-job → candidate → interview → decision flow used by AI-hiring platforms
-like [Verixans (VerisNova)](https://www.verixans.com/). Built to demonstrate
+job → candidate → interview → decision flow. Built to demonstrate
 relational schema design, SQL analysis (including window functions), and
 Python-based synthetic data generation.
-
-## Why this project
-
-I'm transitioning into a Data Analyst role and wanted a portfolio project
-that goes beyond a single flat CSV — one with a proper relational schema,
-referential integrity, and analysis questions that mirror what a real
-recruiting/hiring-tech team would ask of their data.
 
 ## Tech stack
 
@@ -132,7 +124,7 @@ Full methodology, results, and limitations are written up in
 - `docs/methodology.md` — full write-up of the LLM scoring experiment
 - `data/` — generated CSVs (funnel data + interview transcripts + LLM scores)
 
-## Next steps
+## Possible extensions
 
 - Candidate–job matching via embeddings (`pgvector`)
 - A small independently human-scored sample, to give the LLM comparison
