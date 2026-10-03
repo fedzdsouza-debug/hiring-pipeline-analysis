@@ -64,6 +64,8 @@ Full DDL is in [`schema.sql`](./schema.sql).
 
 ## Key findings
 
+![Hiring funnel](./charts/funnel_chart.png)
+
 *(from this run's synthetic data — regenerating with a different seed will
 produce different numbers)*
 
@@ -96,6 +98,10 @@ project's synthetic reference scores?
 Full methodology, results, and limitations are written up in
 [`docs/methodology.md`](./docs/methodology.md). Headline results:
 
+![Reference vs LLM score by competency](./charts/llm_vs_reference_scores.png)
+
+![Rank correlation by competency](./charts/rank_correlation.png)
+
 - **Large absolute disagreement, but expected:** overall MAE of 33.3
   (0-100 scale) — the LLM scored every dimension 19-40 points lower than
   the reference on average. This is explained in the methodology doc:
@@ -123,6 +129,7 @@ Full methodology, results, and limitations are written up in
 - `docs/scoring_rubric.md` — the rubric used for LLM scoring
 - `docs/methodology.md` — full write-up of the LLM scoring experiment
 - `data/` — generated CSVs (funnel data + interview transcripts + LLM scores)
+- `charts/` — chart images embedded in this README
 
 ## Possible extensions
 
